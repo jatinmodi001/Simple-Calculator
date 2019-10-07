@@ -1,0 +1,121 @@
+body{    
+    background-color: black;
+    font-family: 'Open Sans',sans-serif;
+}
+#calculator
+{
+    background-color: #eaedef;
+    height:520px;
+    width :335px;
+    margin: 50px auto;
+    border-radius:5px;
+}
+#history
+{
+    text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output
+{
+    text-align: right;
+    height:60px;
+    margin:10px 20px;
+    font-size:30px;
+}
+#result
+{
+    height:120px;
+}
+#keyboard
+{
+    height: 400px;
+}
+.num,.empty
+{
+
+    font-family: 'Open Sans',sans-serif;
+    background-color:#eaedef;
+    height:50px;
+    width:50px;
+    font-size:15px;
+    font-weight: bold;
+    border-radius:50%;
+    border-width: 0px;
+    margin:10px 15px;
+}
+.operator
+{
+    font-family: 'Open Sans',sans-serif;
+    background-color:#eaedef;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border-width: 0px;
+    margin:10px 15px;
+}
+.num:hover,.operator:hover
+{
+    cursor: pointer;
+}
+.num:hover
+{
+    background-color: #E2E6E8;
+}
+.operator[value="/"]
+{
+    background-color: #F1785F;
+    font-size: 20px;
+}
+.operator[value="/"]:hover
+{
+    background-color: #F3917D;
+}
+.operator[value="*"]
+{
+    background-color: #7963F6;
+    font-size: 20px;
+}
+.operator[value="*"]:hover
+{
+    background-color: #8A77F6;
+}
+.operator[value="-"]
+{
+    background-color: #D063F6;
+    font-size: 20px;
+}
+.operator[value="-"]:hover
+{
+    background-color: #D87FF7;
+}
+.operator[value="+"]
+{
+    background-color: #ffa500;
+    font-size: 20px;
+}
+.operator[value="+"]:hover
+{
+    background-color: #FCB93D;
+}
+.operator[value="="]
+{
+    background-color: #20b2aa;
+    font-size: 20px;
+}
+.operator[value="="]:hover
+{
+    background-color: #27CFC6;
+}
+.operator[value="C"],[value="CE"],[value="%"]
+{
+    background-color: #D8D8D8;
+    font-size: 20px;
+}
+.operator[value="C"]:hover,[value="CE"]:hover,[value="%"]:hover
+{
+    background-color: #cccccc;
+}
